@@ -4408,7 +4408,7 @@
 					{
 						"command": "F",
 						"payload": {
-							".code.tio": "[export]\ndef main\n    print(\"Hello, World!\")\n"
+							".code.tio": "options gen2\n\n[export]\ndef main {\n    print(\"Hello, World!\\n\")\n}\n"
 						}
 					}
 				],
